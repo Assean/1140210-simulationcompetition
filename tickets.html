@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap.js"></script>
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: rgb(240, 211, 173);">
+    <nav class="d-flex justify-content-beteen align-items-center nav" >
+        <div class="d-flex justify=content-beween align-content-conter">
+            <div class="d-flex justify-content-beteen align-items-center">
+                <img src="./img/icon/mainicon.png" class="d-flex logoimg m-1">
+            </div>
+                <div>
+                    <h5>Home</h5>
+                </div>
+                    <div class="d-flex ">
+                        <div>
+                        <a class="btn m-1 a" href="./Home.html">Home</a>
+                        </div>
+                        <div>
+                        <a class="btn a" href="./News.html">News</a>
+                        </div>
+                        <div>
+                        <a class="btn a" href="./Business.html">Business</a>
+                        </div>
+                        <div>
+                        <a class="btn a a4" href="./Tickets.html">Tickets</a>
+                        </div>
+                        
+                    </div>
+        </div>
+    </nav>
+
+    <main>
+        <form action="tickets.php">
+        <div style="width: 500px;height: 400px;background-color: bisque;border: 2px solid black;border-radius: 10px;padding: 5px;margin: 10px;">
+            <div class="row">
+                <div class="col">
+                    <label for="Firstname">Firstname</label>
+                    <input type="text" class="Firstname" name="Firstname" id="Firstname">
+                </div>
+                <div class="col">
+                    <label for="Lastname">Lastname</label>
+                    <input type="text" class="Lastname" name="Lastname" id="Lastname">
+                </div>
+            </div>
+            <br>
+                <div>
+                    <label for="Phone">Phone</label>
+                    <input type="text" class="Phone" name="Phone" id="Phone">
+                </div>
+            <br>
+                <div>
+                    <label for="Phone">Password</label>
+                    <input type="password" class="Password" name="Password" id="Password">
+                </div>
+            <br>
+                <div>
+                    <label for="Verify">驗證碼</label>
+                    <input type="text" class="Verify_image" disabled>
+                    <span class="Verify_ans" hidden></span>
+                </div>
+            <br>
+                <div>
+                    <label for="Phone">Verification</label>
+                    <input type="text" class="Password" name="Password" id="Password">
+                </div>
+                <BR></BR>
+                <div>
+            <button class="ResetSS">Reset</button>
+            <button class="SubmitSS">Submit</button>
+        </div>
+        </div>
+        
+
+    </form>
+    </main>
+
+
+    <footer  class="d-flex flex-fixed justify-content-center align-items-center">
+        <div>
+            <img src="./img/picture/facebook.png" class="m-2 " style="border:  4px solid pink;border-radius: 10px;width: 50px;height: 50px;">
+            <img src="./img/picture/google.png" class="m-2 " style="border: 4px solid pink;border-radius: 10px;width: 50px;height: 50px;">
+            <img src="./img/picture/twitter.png" class="m-2 " style="border: 4px solid pink;border-radius: 10px;width: 50px;height: 50px;">
+            <img src="./img/picture/youtube.png" class="m-2 " style="border: 4px solid pink;border-radius: 10px;width: 50px;height: 50px;">
+        </div>
+        <div>
+            Copyright	© 2024 FIBEX All	Rights	Reserved
+        </div>
+    </footer>
+
+
+</body>
+<script>
+    $_POST
+</script>
+</html>

@@ -1,0 +1,93 @@
+body{
+    width: 1920px;
+    height: 1080px;
+}
+.nav{
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+    transition-duration: 700ms;
+}
+.nav:hover{
+    background-color: rgb(255, 255, 169);
+}
+.logoimg{
+    width:  50px;
+    height: auto;
+}
+.a{
+    background-color: aquamarine;
+    margin: 5px;
+}
+.a:hover{
+    font-size: 20px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.a1{
+    font-size: 20px;
+    border: 0.5px solid black;
+}
+.a1:hover{
+    font-size: 15px;
+}
+.a2{
+    font-size: 20px;
+    border: 0.5px solid black;
+}
+.a2:hover{
+    font-size: 15px;
+}
+.a3{
+    font-size: 20px;
+    border: 0.5px solid black;
+}
+.a3:hover{
+    font-size: 15px;
+}
+.a4{
+    font-size: 20px;
+    border: 0.5px solid black;
+}
+.a4:hover{
+    font-size: 15px;
+}
+.cv{
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 700ms;
+}
+.cv:hover{
+    border: 3px solid bisque;
+    font-size: 25px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+.pp{
+    font-size: 15px;
+    transition-duration: 800ms;
+}
+.pp:hover{
+    font-size: 15.9px;
+    border: 2px solid rgb(150, 150, 101);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.siv1{
+    width: 510px;
+    height: 240px;
+    text-align: center;
+}
+.ResetSS{
+    background-color: rgba(255, 115, 115, 0.842);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.SubmitSS{
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+}
